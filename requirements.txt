@@ -1,0 +1,21 @@
+# Core dependencies
+langchain-core>=0.1.0
+langchain-google-genai>=0.0.5
+chromadb>=0.4.22
+jinaai
+langchain
+langchain_chroma
+langchain-community
+tiktoken
+
+# Web frameworks
+streamlit>=1.32.0
+#fastapi>=0.109.0
+#uvicorn[standard]>=0.27.0
+
+# Testing
+pytest>=7.0.0
+
+# Remove unused dependencies
+#sentence-transformers==2.2.2
+#torch==2.0.1 -f https://download.pytorch.org/whl/cpu/torch_stable.html

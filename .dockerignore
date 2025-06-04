@@ -1,0 +1,59 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.pyc
+.pt
+.bin
+
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+# Keep Documents directory but exclude large files
+Documents/*.csv
+Documents/*.xlsx
+Documents/*.xls
+Documents/*.pdf
+Documents/*.doc
+Documents/*.docx
+
+# Keep test files but exclude test data
+tests/test_data/
+
+# Project specific
+Documents/
+docloader.py
+vec_handles.py
+chromadb/ 
